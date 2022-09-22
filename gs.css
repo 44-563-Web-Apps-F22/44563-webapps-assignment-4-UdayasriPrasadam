@@ -1,0 +1,91 @@
+h1
+{
+    color:mediumvioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    text-shadow:chartreuse;
+}
+h2
+{
+    color:darkblue;
+    text-align: center;
+}
+h3
+{
+color: black;
+font-size: 26px;
+}
+h4
+{
+    color: black;
+    font-size: 23px;
+}
+.ALX
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .ALE
+  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .SIRM
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .MRSP
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .DRD
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .ELE
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .MRWLLS
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  .LADYS
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+    background-color:darkcyan;
+  }
+  c:hover {
+    color:aquamarine;
+    background-color: goldenrod;
+  }
