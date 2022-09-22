@@ -115,3 +115,22 @@ h4
     color:darkblue;
     background-color: antiquewhite;
   }
+  a:link {
+    color:forestgreen;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:dodgerblue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:lawngreen;
+    background-color:blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color:cornflowerblue;
+  }
