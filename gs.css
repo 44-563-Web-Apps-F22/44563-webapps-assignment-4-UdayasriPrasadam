@@ -6,6 +6,10 @@ h1
     text-align: center;
     text-shadow:chartreuse;
 }
+h1:hover{
+    color:aquamarine;
+    background-color:cornflowerblue;
+  }
 h2
 {
     color:darkblue;
@@ -29,6 +33,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .ALX:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .ALE
   {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -37,6 +46,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .ALE:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .SIRM
   {
     font-family: 'Times New Roman', Times, serif;
@@ -45,6 +59,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .SIRM:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .MRSP
   {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,6 +72,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .MRSP:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .DRD
   {
     font-family: 'Times New Roman', Times, serif;
@@ -61,6 +85,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .DRD:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .ELE
   {
     font-family: Arial, Helvetica, sans-serif;
@@ -69,6 +98,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .ELE:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .MRWLLS
   {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -77,6 +111,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .MRWLLS:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   .LADYS
   {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -85,6 +124,11 @@ h4
     text-align: left;
     background-color:darkcyan;
   }
+  .LADYS:hover
+  {
+    color: cyan;
+    background-color: chartreuse;
+  } 
   c:hover {
     color:aquamarine;
     background-color: goldenrod;
@@ -132,5 +176,32 @@ h4
   
   /* selected link */
   a:active {
-    color:cornflowerblue;
+    color:mediumvioletred;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cyan;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:darkgoldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:chocolate;
+  }
+  
+  .active {
+    background-color:cyan;
   }
