@@ -89,3 +89,29 @@ h4
     color:aquamarine;
     background-color: goldenrod;
   }
+  table{
+    border: 2px solid;
+    width: 200px;
+    color: blue;
+  }
+  th{
+    border: 2px solid;
+    padding: 25px;
+    width: 200px;
+    color:brown;
+
+  }
+  td {
+    border: 1px solid;
+    padding: 10px;
+    width: 200px;
+    color:brown;
+  }
+  tr:nth-child(even)
+  {
+    background-color: cyan;
+  }
+  tr:hover{
+    color:darkblue;
+    background-color: antiquewhite;
+  }
